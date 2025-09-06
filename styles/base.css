@@ -1,10 +1,9 @@
-*{width: 800px;
-
-}
 
 body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    max-width: 800px;  /* page won’t exceed 800px */
+    margin: 0 auto;  
 }
 h2{
     font-weight: 200;
@@ -13,11 +12,13 @@ h2{
     width: auto;
     background-color: blanchedalmond;
     color:black;
+    font-size: large;
+    padding: 20px;
+    text-align: center;
 }
 nav ul{
     display: flex;
 
     background-color: lightpink;
-
 
 }
