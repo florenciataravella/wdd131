@@ -20,5 +20,10 @@ nav ul{
     display: flex;
 
     background-color: lightpink;
-
+}
+#card{
+    display: flex;
+}
+#card me{
+    display: grid;
 }
