@@ -5,11 +5,15 @@ padding: 0;
 }
 
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Arial, Helvetica, sans-serif
 }
 h1{
-    background-color: blue;
+    background-color: lightseagreen;
     text-align: center;
     padding: 1rem;
     color: white;
+}
+
+p{
+    text-align: center;
 }

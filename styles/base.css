@@ -1,0 +1,19 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+h2{
+    font-weight: 200;
+}
+#course-title{
+    width: auto;
+    background-color: blanchedalmond;
+    color:black;
+}
+nav{
+    display: flex;
+    width: auto;
+    background-color: lightpink;
+    
+
+}
