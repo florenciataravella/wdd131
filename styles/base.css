@@ -10,10 +10,10 @@ h2{
     background-color: blanchedalmond;
     color:black;
 }
-nav{
+nav ul{
     display: flex;
     width: auto;
     background-color: lightpink;
-    
+
 
 }
