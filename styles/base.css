@@ -9,10 +9,10 @@ h2{
     font-weight: 200;
 }
 #course-title{
-    width: auto;
+    width: 800px;
     background-color: blanchedalmond;
     color:black;
-    font-size: large;
+    font-weight: bold;
     padding: 20px;
     text-align: center;
 }
@@ -38,7 +38,7 @@ nav ul{
 
 .card.about{
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-columns: 2fr 1fr;
 }
 h3{
   background-color: lightpink;
