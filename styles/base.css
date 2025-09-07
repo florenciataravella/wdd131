@@ -38,10 +38,13 @@ nav ul{
 img{
   width: 150px;
   height: 150px;
+  float: left;
 
 }
 .card.about{
   display: grid;
   grid-template-columns: 120 px 1 fr;
 }
-
+h3{
+  background-color: lightpink;
+}
