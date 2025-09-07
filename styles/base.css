@@ -6,7 +6,9 @@ body{
     margin: 0 auto;  
 }
 header{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px auto;
 }
 h2{
     font-weight: 200;
