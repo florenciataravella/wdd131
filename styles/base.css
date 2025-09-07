@@ -25,13 +25,12 @@ h2{
     font-size: 40px;
 
 }
-ul{
+nav ul{
     grid-row:2 ;
     display: flex;
     background-color: lightpink;
     padding: 0;
     margin: 0;
-    list-style: none;
     justify-content: space-evenly;
 }
 a:link{
@@ -39,7 +38,7 @@ a:link{
   text-decoration: none;
 }
 a:visited{
-  color: aquamarine;
+  color:green;
   text-decoration: none;
 }
 a:hover{
