@@ -5,6 +5,9 @@ body{
     max-width: 800px;  /* page won’t exceed 800px */
     margin: 0 auto;  
 }
+header{
+  display: flex;
+}
 h2{
     font-weight: 200;
 }
