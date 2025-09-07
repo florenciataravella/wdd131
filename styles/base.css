@@ -43,7 +43,7 @@ img{
 }
 .card.about{
   display: grid;
-  grid-template-columns: 120 px 1 fr;
+  grid-template-columns: 90px 1fr;
 }
 h3{
   background-color: lightpink;
