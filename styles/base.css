@@ -14,6 +14,7 @@ h2{
     font-weight: 200;
 }
 #course-title{
+    grid-row:1 ;
     width: auto;
     background-color: blanchedalmond;
     color:black;
@@ -22,6 +23,7 @@ h2{
     text-align: center;
 }
 nav ul{
+    grid-row:2 ;
     display: flex;
     background-color: lightpink;
     padding: 0;
