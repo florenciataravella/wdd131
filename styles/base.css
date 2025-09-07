@@ -12,6 +12,7 @@ header{
 }
 h2{
     font-weight: 200;
+    font-size: 40px;
 }
 #course-title{
     grid-row:1 ;
@@ -30,6 +31,18 @@ nav ul{
     margin: 0;
     list-style: none;
     justify-content: space-evenly;
+}
+a:link{
+  color: black;
+}
+a:visited{
+  color: aquamarine;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color:darkblue;
 }
 .content {
   display: flex;            /* put children side by side */
