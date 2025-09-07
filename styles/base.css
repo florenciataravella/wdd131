@@ -35,4 +35,15 @@ nav ul{
   flex: 1;                  /* both take equal width */
   background: #f9f9f9;
 }
+img{
+  width: 150px;
+  height: 150px;
+
+}
+.card.about{
+  display: grid;
+}
+.card.about p{
+  grid-template-columns: 
+}
 
