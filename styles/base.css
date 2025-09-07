@@ -18,7 +18,6 @@ h2{
 }
 nav ul{
     display: flex;
-    justify-content: space-evenly;
     background-color: lightpink;
     padding: 0;
     margin: 0;
