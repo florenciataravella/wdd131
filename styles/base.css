@@ -34,15 +34,19 @@ nav ul{
 }
 a:link{
   color: black;
+  text-decoration: none;
 }
 a:visited{
   color: aquamarine;
+  text-decoration: none;
 }
 a:hover{
   color: blue;
+  text-decoration: none;
 }
 a:active{
   color:darkblue;
+  text-decoration: none;
 }
 .content {
   display: flex;            /* put children side by side */
