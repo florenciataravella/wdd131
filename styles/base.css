@@ -32,6 +32,7 @@ nav ul{
     padding: 0;
     margin: 0;
     justify-content: space-evenly;
+    font-size: 40px;
 }
 a:link{
   color: black;
@@ -67,8 +68,13 @@ img{
   width: 200px;
   height: auto;
 }
-
+.about img{
+  float: right;
+}
 .card.about{
   display: grid;
+}
+footer{
+  text-align: center;
 }
 
