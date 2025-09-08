@@ -75,11 +75,10 @@ img{
   display: grid;
 }
 footer{
-  justify-content: center;
+  text-align: center;
 }
 .highlight {
-	color: navy;
+	color:black;
 	font-weight: 700;
-	font-family: hebrew;
 }
 
