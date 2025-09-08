@@ -8,11 +8,10 @@ const lastmodified=document.querySelector("#lastmodified");
 
 const today2=new Date();
 
-const shortDate  = new Intl.DateTimeFormat("en-US", { dateStyle: "short" }).format(today2); //The Intl.DateTimeFormat constructor lets you format dates according to locale rules.
+const shortDate  = new Intl.DateTimeFormat("en-US", { dateStyle: "short", timeStyle: "short"}).format(today2); //The Intl.DateTimeFormat constructor lets you format dates according to locale rules.
 
 lastmodified.innerHTML = `<span class="highlight">${new Intl.DateTimeFormat(
-  "en-US",
-  { dateStyle: "short" }
-).format(today)}</span>`;
+  "en-US", { dateStyle: "short" , timeStyle: "short"}
+).format(today2)}</span>`;
 
 
