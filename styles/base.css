@@ -25,7 +25,7 @@ h2{
     font-size: 40px;
 
 }
-nav ul{
+nav{
     grid-row:2 ;
     display: flex;
     background-color: lightpink;
