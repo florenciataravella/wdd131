@@ -39,7 +39,7 @@ a:link{
   text-decoration: none;
 }
 a:visited{
-  color:green;
+  color: darkblue;
   text-decoration: none;
 }
 a:hover{
@@ -47,7 +47,7 @@ a:hover{
   text-decoration: none;
 }
 a:active{
-  color:darkblue;
+  color:purple;
   text-decoration: none;
 }
 .content {
