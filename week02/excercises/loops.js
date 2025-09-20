@@ -6,3 +6,6 @@ for (let i=0; i<LIMIT; i++)
 
     )
 }
+function fullName(first,last){
+    console.log(first + " "+ last)
+}
