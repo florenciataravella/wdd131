@@ -12,6 +12,7 @@
 body{
     font-family: var(--font-Roboto);
 }
+
 h1{
     font-family: var(--font-Raleway);
     text-align: center;
@@ -27,55 +28,68 @@ h1{
 img{
     max-width: 100%;
     height: auto;
+
+
 }
 .data{
-    background-color: var(--bg);
+    background-color: var(--bg3);
     padding: 1rem;
+}
+.data dl{
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     font-size: 1rem;
 }
 .data h2{
     text-align: center;
-    grid-column: 1/3;
 }
-.data dt{
+.data dl dt{
     margin-right: 0%;
     text-align: end;
     font-size: 0.8rem;
     font-weight: bold;
 }
-.data dd{
+.data dl dd{
     margin-left: 0.5rem;
     font-size: 0.8rem;
 }
 .weather{
-    background-color: var(--bg2);
+
+
+background-color: var(--bg2);
     padding: 1rem;
+    }
+.weather dl{
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     font-size: 1rem;
-
+   
 }
+
 .weather h2{
     padding-top: 1rem;
     text-align: center;
-    grid-column: 1/3;
-    justify-content: center;
 }
 .weather picture{
-   grid-column: 1/3;
-    text-align: center; /* centers the icon */
+    display: block;
+    text-align: center;
 }
-.weather dt{
+
+picture img{
+   align-content: center;
+
+}
+.weather dl dt{
     margin-right: 0%;
     text-align: end;
     font-size: 0.8rem;
     font-weight: bold;
 }
-.weather dd{
+.weather dl dd{
     margin-left: 0.5rem;
     font-size: 0.8rem;
 }

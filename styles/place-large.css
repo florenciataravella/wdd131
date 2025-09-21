@@ -30,19 +30,17 @@
     width: 180px;
     height: 280px;
     background-color: var(--bg3);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+   
 }
 .weather picture{
     display: none;
 }
 .weather h2::after{
     content: "🌦️"; 
-  font-size: 3rem;
+  font-size: 2rem;
   position: absolute;
-  top: 30px;
-  right: 38px;
+  top: 33px;
+  right: 49px;
 }
 .weather h2{
     position: relative;
