@@ -83,21 +83,21 @@ const temples = [
     location: "Asuncion, Paraguay",
     dedicated: "2002, May, 19",
     area: 11906,
-    imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/asuncion-paraguay-temple/asuncion-paraguay-temple-6952.jpg"
+    imageUrl:"https://www.churchofjesuschrist.org/imgs/1666651be95c20604d8de145c7c0f4a93496e134/full/400%2C/0/default"
   },
   {
-    templeName: "Auckland New Zeland",
-    location: "Asunción, Paraguay",
-    dedicated: "2025, April, 13",
+    templeName: "Freiberg Germany",
+    location: "Freiberg, Germany",
+    dedicated: "1985, June, 29",
     area: 45456,
-    imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/auckland-new-zealand-temple/auckland-new-zealand-temple-57793.jpg"
+    imageUrl:"https://www.churchofjesuschrist.org/imgs/7f19f5c444af3ddcbda946c6977a460baeaea1d2/full/400%2C/0/default"
   },
   {
     templeName: "Río de Janeiro Brazil",
     location:"Río de Janeiro, Brazil",
     dedicated:"2022, May, 8",
     area:29966,
-    imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/rio-de-janeiro-brazil-temple/rio-de-janeiro-brazil-temple-8167.jpg"
+    imageUrl:"https://www.churchofjesuschrist.org/imgs/001db7326e638032470a02813c9e47191ef74b0e/full/400%2C/0/default"
   }
 ];
 

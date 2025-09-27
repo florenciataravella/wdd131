@@ -9,5 +9,8 @@
     .navigation{
         display: block;
     }
- 
+    .temples img{
+  width: 100px;               /* ← shrink to the grid cell */
+  height: auto;   
+    }
 }
