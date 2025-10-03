@@ -49,10 +49,10 @@ h1{
     width: 100%;
     max-width: 300px;
 }
-legend{
+fieldset{
     font-size: 0.8rem;
 }
-legend p{
+fieldset p{
     font-size: 0.7rem;
     margin: 0;
 }
@@ -75,7 +75,7 @@ form input[type="checkbox"]{
     font-size: 0.8rem;
     margin-left: 2%;
 }
-.review p{
+.review span{
     font-size: 0.7rem;
     margin-left: 2%;
     margin: 0%;
@@ -94,7 +94,7 @@ form input[type="checkbox"]{
     margin-left: 2%;
     margin-top:5%;
 }
-.name p{
+.name span{
     font-size: 0.7rem;
     margin-left: 2%;
     margin: 0%;
