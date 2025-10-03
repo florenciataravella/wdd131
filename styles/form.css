@@ -1,0 +1,134 @@
+:root{
+    font-family: "Public Sans", sans-serif;
+    font-weight: bold;
+}
+main{
+    background-color: #BEE3DB;
+    max-width: 400px;
+}
+h1{
+    font-size: 1.5rem;
+    background-color: #89B0AE;
+    padding: 5%;
+    text-align: center;
+    max-width: 400px;
+}
+
+.form1 fieldset{
+    margin: 2rem 0;
+    padding: 0.5rem 2%;
+    border: none;
+}
+
+.rating {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2;
+    justify-items: center;
+    align-items: center;
+    max-width: 300px;
+}
+.rating label{
+    font-size: 0.8rem;
+}
+.rating input[type="radio"]
+{
+    justify-self: center;
+}
+.form1 label{
+
+    display: block;
+}
+.form1 input[type="date"],
+.form1 select,
+.form1 input[type="radio"]
+{
+    display: block;
+    box-sizing: border-box;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 300px;
+}
+legend{
+    font-size: 0.8rem;
+}
+legend p{
+    font-size: 0.7rem;
+    margin: 0;
+}
+.checkbox label{
+    display: flex;          /* make label a flex container */
+  align-items: center;    /* center text vertically with checkbox */
+  gap: 0.5rem;  
+  font-size: 0.7rem;
+}
+
+label[for="installation"]{
+    font-size: 0.8rem;
+    margin-bottom: 2%;
+}
+form input[type="checkbox"]{
+    width: 20px;
+  height: 20px;
+}
+.review label{
+    font-size: 0.8rem;
+    margin-left: 2%;
+}
+.review p{
+    font-size: 0.7rem;
+    margin-left: 2%;
+    margin: 0%;
+}
+.review textarea{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 96%;
+    max-width: 300px;
+    height: 5rem;
+    box-sizing: border-box;
+
+}
+.name label{
+    font-size: 0.8rem;
+    margin-left: 2%;
+    margin-top:5%;
+}
+.name p{
+    font-size: 0.7rem;
+    margin-left: 2%;
+    margin: 0%;
+}
+.name input{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 96%;
+    max-width: 300px;
+    height: 1.5rem;
+    box-sizing: border-box;
+}
+.form1 input[type="submit"]{
+    padding: 0.8rem;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 96%;
+    max-width: 300px;
+
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color:#89B0AE;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+#mainReview{
+    width: 100%;
+    height: 10rem;
+    max-width: 400px;
+}

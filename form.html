@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Florencia Taravella">
+    <meta  name="description" content="WDD 131 - Product review form.">
+    
+    <title>WDD 131 - Dynamic Web Fundamentals - Florencia Taravella".</title>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="styles/form.css" rel="stylesheet">
+    
+    <script src="scripts/form.js" defer></script>
+
+</head>
+<body>
+    <main>
+        <h1> Product Review</h1>
+        <form method="get" action="review.html" class="form1">
+
+            <fieldset>
+            <legend> Product Name </legend>
+             <select name="selectProduct" id="selectProduct" required>
+                <option value=""> Select a product</option>
+            </select>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Overall Rating</legend>
+                <div class="rating">
+                
+            <label>⭐ <input type="radio" name="Overall rating" value="1 star"> </label>
+            <label>⭐⭐ <input type="radio" name="Overall rating" value="2 stars"> </label>
+            <label>⭐⭐⭐ <input type="radio" name="Overall rating" value="3 stars"> </label>
+            <label>⭐⭐⭐⭐ <input type="radio" name="Overall rating" value="4 stars"> </label>
+            <label>⭐⭐⭐⭐⭐ <input type="radio" name="Overall rating" value="5 stars"> </label>
+                    </div>
+            </fieldset>
+            
+            <fieldset>
+             <label for="installation">Date of Installation</label><input type="date" name="installationDate" id="installation"  required> 
+             </fieldset>
+             
+             <fieldset>
+            <legend >Which features did you find useful in the product?
+               <p>(Check all that apply)</p></legend>
+            <div class="checkbox">
+            <label><input type="checkbox" name="durability" value="durability" id="durability">Durability  </label>
+            <label> <input type="checkbox" name="useEase" value="ease of use" id="useEase">Ease of use </label>
+            <label> <input type="checkbox" name="performance" value="performance" id="performance">Performance </label>
+            <label> <input type="checkbox" name="design" value="design" id="design">Design </label>
+            </div>
+            </fieldset>
+            
+            <div class="review">
+            <label for="review"> Written Review<p>(Optional)</p></label><textarea rows="5" name="review" id="review"></textarea>
+                </div>
+              <div class="name">
+            <label for="name"> Your name <p>(Optional)</p></label><input type="text" name="name" id="name">
+            </div>
+            
+            <input type="submit" value="Send my review" id="submit">
+
+        </form>
+    </main>
+    <footer>
+        <p id="name">© <span id="year"></span> ✨| Florencia Taravella |✨ Argentina </p>
+        <p id="date"> Last modification: <span id="lastmodified"></span> </p>
+    </footer>
+</body>
+</html>
