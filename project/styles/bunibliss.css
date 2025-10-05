@@ -1,0 +1,20 @@
+:root{
+    --text--font: "Zalando Sans", sans-serif;
+    --descritpion-font: "Public Sans", sans-serif;
+    --backgroud-green:#d0e7c1;
+    --background-brown:#f3e1d2;
+
+}
+main{
+    max-width: 1100px;
+    background-color: var(--background-brown);
+    height: 400px;
+}
+.navigation{
+    background-color: var(--backgroud-green);
+    font-family: var(--text--font);
+    display: flex;
+}
+footer{
+    background-color: var(--backgroud-green);
+}
