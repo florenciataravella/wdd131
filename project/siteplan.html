@@ -8,6 +8,7 @@
     <title>WDD 131 - Site Project-Bunibliss - Florencia Taravella".</title>
 
     <link href="styles/bunibliss.css" rel="stylesheet">
+    <link href="styles/bunibliss-large.css" rel="stylesheet">
     
     <script src="scripts/bunibliss.js" defer></script>
 
@@ -16,40 +17,53 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
 </head>
+<div class="container">
 <body>
     <header>
-        <a id="menu" href="#"></a>
-        <nav class="navigation"> 
-            <ul>
-                <li> <a href="#"> Home </a></li>
-                <li> <a href=""> Products</a></li>
-                <li> <a href=""> Contact</a></li>
-                <li> <a href="images/Desktop mode.png"> Wireframe</a></li>
-          
-            </ul>
-        </nav>
+                <div class="navigation">
+    
+                <img id="logo" src="images/image.png" loading="lazy" alt="logo">
+            
+            <nav class="menu"> 
+                <ul>
+                <li id="home"> <a href="#"> HOME </a></li>
+                <li id="productsLink"> <a href="products.html"> PRODUCTS</a></li>
+                <li id="contact"> <a href="shipping.html"> CONTACT</a></li>
+                </ul>
+            </nav>
+            </div>
     </header>
-    <main class="principal">
-        <p> Site name: www.bunibliss.com This is my cosmetic´s laboratory name </p>
-        <p> Site purpose: Online shop to show my products and sell the products I produce in my laboratory.
-        In the site you can find information and descriptions of the products, their benefits, usage and the opportunity to buy them. </p>
-        <aside> Scenarios:
-What is the best product according to my skintype?
-What skincare routine should I use if I am x years old?
-What are the ingredients each product has?
-What is the difference between bunibliss´s products and other brands´? 
-</aside>
-    <p> Colors
-Menu background: Light green #d0e7c1
-Informative banners background: Light brown #f3e1d2
-Fonts: Black 
-</p>
-<p> Fonts: --text--font: "Zalando Sans", sans-serif;
-    --descritpion-font: "Public Sans", sans-serif; </p>
+    <main>
+        <div class="banner">
+            <picture id="bannerp">
+                <source srcset="images/almendras.png" media="(min-width:500px)">
+                <img src="images/limon.jpg" alt="limon image">
+            </picture>   
+        </div>
+        <div class="home-imgs">
+           
+            <figure >
+            <img src="images/3.jpg" alt="cream 1" loading="lazy">
+            <figcaption id="skintypes">Your skin, our inspiration</figcaption>
+            </figure>
+           
+            <figure >
+            <img src="images/4.jpg" alt="cream 2" loading="lazy">
+            <figcaption id="textures">Unique textures</figcaption>
+            </figure>
+           
+            <figure >
+            <img src="images/5.jpg" alt="cream 3" loading="lazy">
+            <figcaption id="routines">Simple and effective skincare routines</figcaption>
+            </figure>
+        </div>
+
+    
     </main>
     <footer>
-        <p>© <span id="year"></span> *| Florencia Taravella |* Argentina </p>
-        <p> Last modification: <span id="lastmodified"></span> </p>
+        <p class="year">© <span id="year"></span> *| Florencia Taravella |* Argentina </p>
+        <p class="lastmodified"> Last modification: <span id="lastmodified"></span> </p>
     </footer>
 </body>
+</div>
 </html>

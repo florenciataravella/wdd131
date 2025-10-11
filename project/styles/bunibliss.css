@@ -1,20 +1,102 @@
 :root{
     --text--font: "Zalando Sans", sans-serif;
-    --descritpion-font: "Public Sans", sans-serif;
+    --description-font: "Public Sans", sans-serif;
     --backgroud-green:#d0e7c1;
     --background-brown:#f3e1d2;
-
 }
-main{
-    max-width: 1100px;
-    background-color: var(--background-brown);
-    height: 400px;
+body{
+max-width: 800px;
+}
+
+header{
+    background-color: var(--backgroud-green);
 }
 .navigation{
-    background-color: var(--backgroud-green);
-    font-family: var(--text--font);
-    display: flex;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2%;
 }
+.navigation #logo{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-self: center;
+    width: clamp(60px, 10vw, 200px);
+}
+.menu{
+    grid-column: 1 / 4; /* span all 3 columns */
+    grid-row: 1/2;    /* firs row */
+}
+.home-imgs{
+    display: none;
+}
+.navigation ul{
+    display: flex;
+    background-color: var(--backgroud-green);
+    align-items: center;
+    width: 100%; /* ensures it fills available space */
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    flex-wrap: wrap;
+}
+.navigation li{
+    list-style-type: none;
+    flex: 1; /* each item gets equal space */
+  text-align: center;
+  min-width: 0;
+}
+
+.navigation a{ 
+    padding:.75rem 1rem; 
+    text-decoration: none;
+    color: black;
+    font-family: var(--text--font);
+    font-size: clamp(1rem, 1.2vw + 0.4rem, 2rem); /* responsive text */
+    font-weight: 400;
+  display: block;
+  text-align: center;
+  padding: .5rem .25rem;
+
+  white-space: nowrap;                       /* remove if you want 2-line labels */
+}
+  
+
+.banner picture,
+.banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+  max-width: 100%;
+}
+@media (max-width:350px){
+.navigation a{
+    display: none;
+}
+}
+    
+
 footer{
     background-color: var(--backgroud-green);
+    font-family: var(--text--font);
+    font-size: 0.7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2;
 }
+.year{
+    grid-column:2/3;
+    grid-row: 1;
+    text-align: center;
+    margin-bottom: 0%;
+    
+}
+.lastmodified{
+    grid-column: 2/3;
+    grid-row:2;
+    text-align: center;
+    margin-top: 1%;
+}
+
+

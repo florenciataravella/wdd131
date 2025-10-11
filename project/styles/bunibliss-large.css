@@ -1,0 +1,85 @@
+@media  screen and (min-width:40em) {
+    .container{
+    max-width: 1500px;
+    }
+  .navigation{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}  
+    .navigation #logo{
+    grid-row: 1/3;
+    grid-column: 1/2;
+    justify-self: left;
+    margin-left: 3%;
+}
+.menu{
+    grid-column:  2/ 4; /* span 2 columns */
+    grid-row: 2;    /* firts row */
+}
+.navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.banner picture,
+.banner img {
+  display: block;    /* removes inline-gap */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+   padding-top: 2%;
+}
+
+
+.home-imgs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    width: 100%;
+    max-width: 1500px;
+    padding-top: 7%;
+    
+}
+
+.home-imgs figure{
+    position: relative;
+  box-sizing: border-box; 
+  margin: 0%;
+  aspect-ratio: 1 / 1; /* keeps them perfectly square */
+  object-fit: cover;   /* crops to fill the box without stretching */
+
+}
+.home-imgs figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.home-imgs figcaption{
+    position: absolute;
+    font-family: var(--description-font);
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: white;
+
+      width: 80%;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7)
+}
+#skintypes{
+    top: 70%;
+  left: 17%;
+  text-align: center;
+    
+}
+#textures{
+    top: 20%;
+    left: 10%;
+    
+}
+#routines{
+text-align: right;
+top: 40%;
+left: 10%;
+}
+}

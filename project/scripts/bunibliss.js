@@ -21,3 +21,26 @@ hambutton.addEventListener("click",()=>{
   hambutton.classList.toggle("show");
 
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const bannerPicture = document.getElementById("bannerp");
+  const source=bannerPicture.querySelector("source");
+  const img=bannerPicture.querySelector("img");
+
+  function changeBanner(imgPath, sourcePath){
+  source.srcset=sourcePath;
+  img.src=imgPath;
+};  
+setTimeout(()=>{
+  changeBanner("images/limon.jpg", "images/rosamosqueta.png");
+}, 5000);
+
+});
+
+
+
+
+
+
+
+console.log(bannerPicture, source, img);

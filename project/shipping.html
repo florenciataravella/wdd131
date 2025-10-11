@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Florencia Taravella">
+    <meta  name="description" content="WDD 131 - Bunibliss Website.">
+    <title>WDD 131 - Site Project-Bunibliss - Florencia Taravella".</title>
+
+    <link href="styles/bunibliss-shipping.css" rel="stylesheet">
+    <link href="styles/bunibliss-large-shipping.css" rel="stylesheet">
+    
+    <script src="scripts/shipping.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+</head>
+<div class="container">
+<body>
+    <header>
+                <div class="navigation">
+    
+                <img id="logo" src="images/image.png" loading="lazy" alt="logo">
+                <h2> SHIPPING</h2>
+            </div>
+    </header>
+    <div class="shipping">
+    <main>
+      
+        <div class="shippingInfo">
+           <h2> Shipping Information</h2>
+        <form method="get" action="purchase.html" class="shippingForm">
+            <div class="address">
+            <label for="address">Your address</label><input type="text" name="address" id="address">
+            </div>
+            
+            <fieldset>
+            <legend> Shipping choice </legend>
+             <select name="shippingChoice" id="shippingChoice" required>
+                <option value=""> Select a choice</option>
+            </select>
+            </fieldset>
+        
+            <div class="comments">
+            <label for="comments"> Comments<span>(Optional)</span></label><textarea rows="5" name="comments" id="comments">
+
+            </textarea>
+                </div>
+              <div class="email">
+            <label for="email"> email </label><input type="text" name="email" id="email">
+            </div>
+            
+            <input type="submit" value="Send my Bunibliss" id="submit">
+
+        </form>
+            
+        </div>
+
+    
+    </main>
+    <aside>
+        <div class="purchase">
+        <h2> Your purchase</h2>
+            
+            <img src="images/arandanos.jpg" alt="cream 3" loading="lazy">
+            <p id="purchase">"Soft Cranberries Nurturing Body Cream"</p>
+             <p id="subtotal">Subtotal: $23 usd</p>
+             <p id="total">Total: </p>
+
+    
+        </div>
+    </aside>
+    </div>
+    <footer>
+        <p class="year">© <span id="year"></span> *| Florencia Taravella |* Argentina </p>
+        <p class="lastmodified"> Last modification: <span id="lastmodified"></span> </p>
+    </footer>
+</body>
+</div>
+</html>

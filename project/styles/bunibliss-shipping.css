@@ -1,0 +1,116 @@
+:root{
+    --text--font: "Zalando Sans", sans-serif;
+    --description-font: "Public Sans", sans-serif;
+    --backgroud-green:#d0e7c1;
+    --background-brown:#f3e1d2;
+}
+body{
+max-width: 800px;
+font-family: var(--text--font);
+}
+.navigation{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2%;
+}
+.navigation #logo{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-self: center;
+    width: clamp(60px, 10vw, 200px);
+}
+.navigation h2{
+    justify-self: flex-start;
+    font-family: var(--text--font);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.shipping{
+    display: flex;
+}
+section{
+    width: 100%;
+}
+.shippingForm input[type="text"],
+fieldset
+{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    max-width: 300px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.email label, .address label, h2{
+    margin-left: 2%;
+
+}
+.shipping{
+    border: 1px solid black;
+    margin-top: 2%;
+    background-color: var(--background-brown);
+}
+.purchase img{
+    text-align: center;
+}
+
+.shippingForm input[type="submit"]{
+    padding: 0.8rem;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 96%;
+    max-width: 300px;
+
+}
+.comments label{
+    font-size: 0.8rem;
+    margin-left: 2%;
+}
+.comments span{
+    font-size: 0.7rem;
+    margin-left: 2%;
+    margin: 0%;
+}
+.comments textarea{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 96%;
+    max-width: 300px;
+    height: 5rem;
+    box-sizing: border-box;
+
+}
+
+footer{
+    background-color: var(--backgroud-green);
+    font-family: var(--text--font);
+    font-size: 0.7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2;
+}
+
+.year{
+    grid-column:2/3;
+    grid-row: 1;
+    text-align: center;
+    margin-bottom: 0%;
+    
+}
+.lastmodified{
+    grid-column: 2/3;
+    grid-row:2;
+    text-align: center;
+    margin-top: 1%;
+}
+.thanks{
+    width: 200px;
+    height: 200px;
+    font-family: var(--text--font);
+    text-align: center;
+    margin: 500px 500px 500px 500px;
+
+}
