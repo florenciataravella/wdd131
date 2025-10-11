@@ -39,10 +39,10 @@ section{
     grid-template-rows: auto auto auto;
     justify-content: center;
 }
-section:nth-child(2){
+.products section:nth-child(2){
         justify-self: end;
     }
-    section:nth-child(3){
+.products section:nth-of-type(3){
         justify-self: start;
     }
 footer{
