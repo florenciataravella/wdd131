@@ -42,9 +42,11 @@ header{
 }
 .navigation li{
     list-style-type: none;
-    flex: 1; /* each item gets equal space */
+    
+       flex: 1; /* each item gets equal space */
   text-align: center;
   min-width: 0;
+  
 }
 
 .navigation a{ 
@@ -90,6 +92,7 @@ footer{
     grid-row: 1;
     text-align: center;
     margin-bottom: 0%;
+    transform: ;
     
 }
 .lastmodified{

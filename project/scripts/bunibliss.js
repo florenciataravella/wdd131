@@ -22,7 +22,7 @@ hambutton.addEventListener("click",()=>{
 
 });
 
-document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
   const bannerPicture = document.getElementById("bannerp");
   const source=bannerPicture.querySelector("source");
   const img=bannerPicture.querySelector("img");
@@ -36,6 +36,31 @@ setTimeout(()=>{
 }, 5000);
 
 });
+*/
+function swapBannerLoop() {
+const bannerPicture = document.getElementById("bannerp");
+const source=bannerPicture.querySelector("source");
+const img=bannerPicture.querySelector("img");
+};
+function changeBanner(imgPath, sourcePath){
+source.srcset=sourcePath;
+img.src=imgPath;
+swapBannerLoop()
+};
+if (bannerStatus === 0) {
+bannerStatus = 1
+setTimeout(()=>{
+console.log("time up!")
+changeBanner("images/limon.jpg", "images/rosamosqueta.png");
+}, 5000);
+}
+else if (bannerStatus === 1) {
+bannerStatus = 0
+setTimeout(()=>{
+console.log("time up!")
+changeBanner("images/limon.jpg", "images/almendras.png");
+}, 5000);
+};
 
 
 
@@ -43,4 +68,3 @@ setTimeout(()=>{
 
 
 
-console.log(bannerPicture, source, img);

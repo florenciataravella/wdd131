@@ -13,7 +13,7 @@ const shippingChoices = [
     }
 ];
 const page = document.body.dataset.page;
-  
+
 if (page === "shipping") {
 const shipping=document.querySelector("#shippingChoice");
 
